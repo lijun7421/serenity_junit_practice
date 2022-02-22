@@ -1,25 +1,10 @@
-# Serenity JUnit Starter project
+#UI Automation Practice
+This is a practice code for learning the basics of Serenity BDD. 
+This is based on the template from [serenity-junit-starter](https://github.com/serenity-bdd/serenity-junit-starter)
 
-Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
+##Test Story
+A user at Veeva's job search web page, wants to find the job description
+about Associate Automation Engineer position.
 
-## Get the code
-
-Click on the [Use This Template button](https://github.com/serenity-bdd/serenity-junit-starter/generate) to create a new project in your own Github account. 
-
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starter/archive/master.zip) file.
-
-## Running the tests under Maven
-
-The template project comes with both Maven and Gradle build scripts. To run the tests with Maven, open a command window and run:
-
-    mvn clean verify
-
-## Use Gradle
-
-For gradle, pen a command window and run:
-
-    gradlew test 
-
-## Viewing the reports
-
-Both of the commands provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
+##Reports
+The Serenity test report can be found in the `target/site/serenity`
